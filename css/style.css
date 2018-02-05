@@ -4,23 +4,53 @@ body, html
 }
 
 .overlay {
-  background: rgba(247, 245, 245, 0);
+  background:rgba(28, 209, 241, 0);
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* flex-direction: column; */
+
 }
 
+.overlay h1{
+  font-family: 'Michroma', sans-serif;
+  font-size: 50px;
+  color:#c6ff00;
+}
+
+#overlay-imgs {
+float: left;
+
+}
 
 video {
-
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 	padding-bottom: 20px;
 	height: 100%;
 	width:100%;
 }
 
+/* .navbar-fixed {
+  position: absolute;
+  z-index:999999999;
+}
 
+
+nav ul {
+  list-style-type: none;
+
+} */
+/* 
+.overlay-icons {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+ */
