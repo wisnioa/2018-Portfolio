@@ -1,0 +1,26 @@
+body, html
+{
+	background-color: #EDEDED;
+}
+
+.overlay {
+  background: rgba(247, 245, 245, 0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+video {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	padding-bottom: 20px;
+	height: 100%;
+	width:100%;
+}
+
+
